@@ -14,7 +14,7 @@ main {
 .header {
   display: flex;
   align-items: center;
-  height: 65px;
+  height: 80px;
   background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
   color: white;
   padding: 20px;
@@ -23,16 +23,18 @@ main {
 .header--image {
   height: 100%;
   margin-right: 6px;
+  padding-left: 70px;
 }
 
 .header--title {
   font-size: 1.25rem;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 
 .header--project {
-  font-size: 0.75rem;
-  font-weight: 500;
+  font-size: 0.95rem;
+  font-weight: 650;
+  margin-left: 65%;
 }
 
 .form {
@@ -40,6 +42,8 @@ main {
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
   margin-bottom: 17px;
+  /* margin-left: 10%;
+  margin-right:10%; */
 }
 
 .form--input {
@@ -47,16 +51,23 @@ main {
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
+  margin-left: 15%;
+  margin-right:15%;
+  text-align: center;
 }
 
 .form--button {
   grid-column: 1 / -1;
   font-family: "Karla", sans-serif;
-  border-radius: 5px;
+  border-radius: 7px;
   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   color: white;
   border: none;
   cursor: pointer;
+  margin-left: 25%;
+  margin-right:25%;
+  height: 55px;
+  
 }
 
 .meme {
@@ -69,6 +80,7 @@ main {
 .meme--image {
   max-width: 100%;
   border-radius: 5px;
+  margin-top: 15px;
   
 }
 
